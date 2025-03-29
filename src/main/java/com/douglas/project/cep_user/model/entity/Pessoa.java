@@ -22,6 +22,8 @@ public class Pessoa {
     private String estado;
     private String uf;
 
+    private Integer num;
+
 
     public Long getId() {
         return id;

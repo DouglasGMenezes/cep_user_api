@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 public interface ViaCepClient {
     @GetMapping("{cep}/json/")
     Endereco buscaEndereco(@PathVariable String cep);
+    // aqui ocorre o conssumo da api externa
 }
 
 
