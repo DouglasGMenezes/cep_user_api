@@ -21,6 +21,7 @@ public class Pessoa {
     private String localidade;
     private String estado;
     private String uf;
+    private String teste;
 
     private Integer num;
 
